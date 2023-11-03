@@ -1,14 +1,14 @@
 #include <iostream>
 #include "own_menu/add_option.h"
-#include "own_menu/main_menu.h"
+#include "own_menu/main_menu_section.h"
 #include "gui/menu.h"
 #include "own_menu/remove_option.h"
 #include "gui/menu_handler.h"
 
 int main() {
 
-    auto *main_part = new main_menu("");
-    auto *main_menu = new menu(2, 0, main_part, "");
+    auto* main_section = new main_menu_section();
+    auto *main_menu = new menu(2, 0, main_section, "");
 
     auto *option_add_menu = new add_option("a");
     auto *option_remove_menu = new remove_option("b");

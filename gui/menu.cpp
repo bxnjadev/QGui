@@ -42,9 +42,8 @@ void menu::install_option(option *option) {
     option_size_++;
 }
 
-menu::menu(int options_capacity, int options_menu_capacity, option *first_part, const std::string &option_tag_prev)
-        : option_tag_prev_(option_tag_prev),
-          first_part_(first_part) {
+menu::menu(int options_capacity, int options_menu_capacity, section_shower* shower, const std::string &option_tag_prev)
+        : option_tag_prev_(option_tag_prev), shower_(shower){
     options_ = new option *[options_capacity];
 
     if (options_menu_capacity != 0) {

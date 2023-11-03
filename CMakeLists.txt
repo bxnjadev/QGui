@@ -10,11 +10,15 @@ add_executable(QGui main.cpp
         own_menu/add_option.h
         gui/menu.cpp
         gui/menu.h
-        gui/menu_helper.cpp
-        gui/menu_helper.h
+        gui/helper/menu_helper.cpp
+        gui/helper/menu_helper.h
         gui/menu_handler.cpp
         gui/menu_handler.h
         own_menu/remove_option.cpp
         own_menu/remove_option.h
-        own_menu/main_menu.cpp
-        own_menu/main_menu.h)
+        gui/builder/builder_menu.cpp
+        gui/builder/builder_menu.h
+        gui/section_shower.cpp
+        gui/section_shower.h
+        own_menu/main_menu_section.cpp
+        own_menu/main_menu_section.h)

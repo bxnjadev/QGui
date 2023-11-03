@@ -73,11 +73,11 @@ build CMakeFiles/QGui.dir/gui/menu.cpp.obj: CXX_COMPILER__QGui_unscanned_Debug C
   OBJECT_DIR = CMakeFiles\QGui.dir
   OBJECT_FILE_DIR = CMakeFiles\QGui.dir\gui
 
-build CMakeFiles/QGui.dir/gui/menu_helper.cpp.obj: CXX_COMPILER__QGui_unscanned_Debug C$:/Users/supre/CLionProjects/QGui/gui/menu_helper.cpp || cmake_object_order_depends_target_QGui
-  DEP_FILE = CMakeFiles\QGui.dir\gui\menu_helper.cpp.obj.d
+build CMakeFiles/QGui.dir/gui/helper/menu_helper.cpp.obj: CXX_COMPILER__QGui_unscanned_Debug C$:/Users/supre/CLionProjects/QGui/gui/helper/menu_helper.cpp || cmake_object_order_depends_target_QGui
+  DEP_FILE = CMakeFiles\QGui.dir\gui\helper\menu_helper.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\QGui.dir
-  OBJECT_FILE_DIR = CMakeFiles\QGui.dir\gui
+  OBJECT_FILE_DIR = CMakeFiles\QGui.dir\gui\helper
 
 build CMakeFiles/QGui.dir/gui/menu_handler.cpp.obj: CXX_COMPILER__QGui_unscanned_Debug C$:/Users/supre/CLionProjects/QGui/gui/menu_handler.cpp || cmake_object_order_depends_target_QGui
   DEP_FILE = CMakeFiles\QGui.dir\gui\menu_handler.cpp.obj.d
@@ -91,8 +91,20 @@ build CMakeFiles/QGui.dir/own_menu/remove_option.cpp.obj: CXX_COMPILER__QGui_uns
   OBJECT_DIR = CMakeFiles\QGui.dir
   OBJECT_FILE_DIR = CMakeFiles\QGui.dir\own_menu
 
-build CMakeFiles/QGui.dir/own_menu/main_menu.cpp.obj: CXX_COMPILER__QGui_unscanned_Debug C$:/Users/supre/CLionProjects/QGui/own_menu/main_menu.cpp || cmake_object_order_depends_target_QGui
-  DEP_FILE = CMakeFiles\QGui.dir\own_menu\main_menu.cpp.obj.d
+build CMakeFiles/QGui.dir/gui/builder/builder_menu.cpp.obj: CXX_COMPILER__QGui_unscanned_Debug C$:/Users/supre/CLionProjects/QGui/gui/builder/builder_menu.cpp || cmake_object_order_depends_target_QGui
+  DEP_FILE = CMakeFiles\QGui.dir\gui\builder\builder_menu.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\QGui.dir
+  OBJECT_FILE_DIR = CMakeFiles\QGui.dir\gui\builder
+
+build CMakeFiles/QGui.dir/gui/section_shower.cpp.obj: CXX_COMPILER__QGui_unscanned_Debug C$:/Users/supre/CLionProjects/QGui/gui/section_shower.cpp || cmake_object_order_depends_target_QGui
+  DEP_FILE = CMakeFiles\QGui.dir\gui\section_shower.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\QGui.dir
+  OBJECT_FILE_DIR = CMakeFiles\QGui.dir\gui
+
+build CMakeFiles/QGui.dir/own_menu/main_menu_section.cpp.obj: CXX_COMPILER__QGui_unscanned_Debug C$:/Users/supre/CLionProjects/QGui/own_menu/main_menu_section.cpp || cmake_object_order_depends_target_QGui
+  DEP_FILE = CMakeFiles\QGui.dir\own_menu\main_menu_section.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\QGui.dir
   OBJECT_FILE_DIR = CMakeFiles\QGui.dir\own_menu
@@ -105,7 +117,7 @@ build CMakeFiles/QGui.dir/own_menu/main_menu.cpp.obj: CXX_COMPILER__QGui_unscann
 #############################################
 # Link the executable QGui.exe
 
-build QGui.exe: CXX_EXECUTABLE_LINKER__QGui_Debug CMakeFiles/QGui.dir/main.cpp.obj CMakeFiles/QGui.dir/gui/option/option.cpp.obj CMakeFiles/QGui.dir/own_menu/add_option.cpp.obj CMakeFiles/QGui.dir/gui/menu.cpp.obj CMakeFiles/QGui.dir/gui/menu_helper.cpp.obj CMakeFiles/QGui.dir/gui/menu_handler.cpp.obj CMakeFiles/QGui.dir/own_menu/remove_option.cpp.obj CMakeFiles/QGui.dir/own_menu/main_menu.cpp.obj
+build QGui.exe: CXX_EXECUTABLE_LINKER__QGui_Debug CMakeFiles/QGui.dir/main.cpp.obj CMakeFiles/QGui.dir/gui/option/option.cpp.obj CMakeFiles/QGui.dir/own_menu/add_option.cpp.obj CMakeFiles/QGui.dir/gui/menu.cpp.obj CMakeFiles/QGui.dir/gui/helper/menu_helper.cpp.obj CMakeFiles/QGui.dir/gui/menu_handler.cpp.obj CMakeFiles/QGui.dir/own_menu/remove_option.cpp.obj CMakeFiles/QGui.dir/gui/builder/builder_menu.cpp.obj CMakeFiles/QGui.dir/gui/section_shower.cpp.obj CMakeFiles/QGui.dir/own_menu/main_menu_section.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\QGui.dir

@@ -7,14 +7,15 @@
 
 
 #include "option/option.h"
-#include "menu_helper.h"
+#include "helper/menu_helper.h"
+#include "section_shower.h"
 
 class menu {
 
 public:
 
     menu(int options_capacity, int options_menu_capacity,
-         option* first_part, const std::string &option_tag_prev);
+         section_shower* shower, const std::string &option_tag_prev);
 
     void show();
 
@@ -33,7 +34,7 @@ private:
     int option_size_;
     int options_menu_size_;
 
-    option* first_part_;
+    section_shower* shower_;
     option** options_;
     menu** menus_;
 };
