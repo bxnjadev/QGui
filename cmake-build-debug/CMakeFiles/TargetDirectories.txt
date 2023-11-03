@@ -1,0 +1,3 @@
+C:/Users/supre/CLionProjects/QGui/cmake-build-debug/CMakeFiles/QGui.dir
+C:/Users/supre/CLionProjects/QGui/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/supre/CLionProjects/QGui/cmake-build-debug/CMakeFiles/rebuild_cache.dir
